@@ -6,10 +6,10 @@
 -------
 ## Install:
 - [Install tại đây](https://www.openwall.com/john/).
-- Hoặc install qua `linus` với lệnh sau: `sudo apt install John`.
+- Hoặc install qua `linus` với lệnh sau: `apt install John`.
 -------
 ## Demo:
-  - Ta sẽ thử crack 2 file sau: [Sceret.rar](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret.rả) với pass `DeMoDeMo` và [Sceret](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret) với pass `PASS`.
+  - Ta sẽ thử crack 2 file sau: [Sceret.rar](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret.rar) với pass là `DeMoDeMo` và [Sceret](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret) với pass là `PASS`.
   - Đầu tiên ta cần học sử dụng các lệnh của `Johntheripper` tại [link sau](https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/).
   - Sceret.rar:
     - Đầu tiên ta sử dụng lệnh `rar2john` để chuyển file về mã hash. Có thể sử dụng `zip2john` nếu đó là file zip.
@@ -22,4 +22,4 @@
     - ![image](https://github.com/Caycon/Forensics/assets/97203151/00f62a2c-f545-4e91-9274-540dac4e372b)
     - Tiếp theo sử dụng lệnh `john` để brute force pass.
     - ![image](https://github.com/Caycon/Forensics/assets/97203151/5fb5b50d-2193-4348-8e90-90a1ca0eae49)
-    - Sau khi có pass là: `PASS` thì ta thực hiện giải nén file và lấy được dữ liệu ở trong(Có dữ liệu nhaaa).
+    - Sau khi có pass là: `PASS` thì ta thực hiện giải nén file và lấy được dữ liệu ở trong.
