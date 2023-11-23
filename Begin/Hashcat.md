@@ -14,4 +14,6 @@
 - ![image](https://github.com/Caycon/Forensics/assets/97203151/00f62a2c-f545-4e91-9274-540dac4e372b)
 - Tiếp theo ta sử dụng `hashcat` để dò pass dựa trên mã hash mà ta thu được sau khi chuyển file về mã hash.
 - Lưu ý sử dụng lệnh `hashcat --hashes-example` để lấy mode file bạn cần hashcat hoặc có thể lên gg search. 
+- Tiếp theo dùng lệnh `hashcat` với mode của `7-zip` là `11600` để dò pass.
+- Ta thu được pass là `PASS`.
 - Đây là [clip](https://www.bing.com/videos/riverview/relatedvideo?q=crack+pass+7zip+by+hashcat&mid=9C026E1EA480B9BF8F4A9C026E1EA480B9BF8F4A&FORM=VIRE) hướng dẫn mà các bạn có thể tham khảo.
