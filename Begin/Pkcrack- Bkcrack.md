@@ -12,7 +12,8 @@
     - decrypted_file: là tên của một tệp mà kho lưu trữ được giải mã sẽ được ghi.
 - Vd: Ta có 2 file zip là `Demo.zip` và `Public.zip`, file chứa nd chung của 2 file zip là `pubilc.txt`. Lưu ý là file `public.txt` phải có nội dung đủ dài.
 - Lệnh ta sử dụng như sau:
-`../bin/./pkcrack -C /mnt/c/Users/nbcta/OneDrive/Desktop/NewTest/Demo.zip -c Public.txt -P /mnt/c/Users/nbcta/OneDrive/Desktop/Public.zip -p Public.txt -d output.zip -a`
-- Hãy thay thế đường dẫn trên về file nơi bạn lưu trữ.
+- ` ./pkcrack -C Demo.zip -c Public.txt -P Public.zip -p Public.txt -d decrypt.zip -a`. Hoặc: `../bin/./pkcrack -C /mnt/c/Users/nbcta/OneDrive/Desktop/NewTest/Demo.zip -c Public.txt -P /mnt/c/Users/nbcta/OneDrive/Desktop/Public.zip -p Public.txt -d output.zip -a`(Thay thế đường dẫn trên về file nơi bạn lưu trữ.)
 ![image](https://github.com/Caycon/Forensics/assets/97203151/11588a4d-fc10-48ff-ba38-01dda59a6bcc)
 - Sau khi đã chạy thành công thì ta giải nén file `output.zip` như bình thường. Còn nếu muốn mở file zip ban đầu có mật khẩu thì ta sẽ tìm hiểu tiếp `bkcrack` ở phần tiếp theo.
+-------
+# Bkcrack:
