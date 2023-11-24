@@ -14,5 +14,5 @@
 - Lệnh ta sử dụng như sau:
 `../bin/./pkcrack -C /mnt/c/Users/nbcta/OneDrive/Desktop/NewTest/Demo.zip -c Public.txt -P /mnt/c/Users/nbcta/OneDrive/Desktop/Public.zip -p Public.txt -d output.zip -a`
 - Hãy thay thế đường dẫn trên về file nơi bạn lưu trữ.
-![image](https://github.com/Caycon/Forensics/assets/97203151/ba60a3b1-33fd-4aa7-87f3-6c631f7a3a8b)
+![image](https://github.com/Caycon/Forensics/assets/97203151/11588a4d-fc10-48ff-ba38-01dda59a6bcc)
 - Sau khi đã chạy thành công thì ta giải nén file `output.zip` như bình thường. Còn nếu muốn mở file zip ban đầu có mật khẩu thì ta sẽ tìm hiểu tiếp `bkcrack` ở phần tiếp theo.
