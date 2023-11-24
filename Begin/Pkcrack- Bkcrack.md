@@ -10,4 +10,7 @@
     - plaintext-ZIP: là tên (đường dẫn) của kho lưu trữ ZIP chứa bản rõ được nén.
     - plaintextname: là tên của tệp trong kho lưu trữ có chứa bản rõ đã biết.
     - decrypted_file: là tên của một tệp mà kho lưu trữ được giải mã sẽ được ghi.
-- 
+- Vd: Ta có 2 file zip là `Demo.zip` và `Public.zip`, file chứa nd chung của 2 file zip là `pubilc.txt`. Lưu ý là file `public.txt` phải có nội dung đủ dài.
+- Lệnh ta sử dụng như sau:
+`../bin/./pkcrack -C /mnt/c/Users/nbcta/Onediver/Destops/NewTest/Demo.zip -c Public.txt -P /mnt/c/Users/nbcta/Onediver/Destops/NewTest/Public.zip -d output.zip -a`
+- Hãy thay thế đường dẫn trên về file nơi bạn lưu trữ.
