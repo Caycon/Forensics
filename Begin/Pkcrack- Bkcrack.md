@@ -28,19 +28,15 @@
 - ![image](https://github.com/Caycon/Forensics/assets/97203151/6569bef1-061d-4d38-8be4-8464440e372d)
 - ### Tiếp theo nếu chúng ta có thể đặt mật khẩu mới hoặc giải mã file hoặc khôi phục mật khẩu ban đầu:
     - #### Đặt mật khẩu mới:
-    - ![image](https://github.com/Caycon/Forensics/assets/97203151/ee42eb41-e1b1-44bc-95c6-2086f9feb8c2)
-    - Với Test.zip là tên file và pass là Test
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/ee42eb41-e1b1-44bc-95c6-2086f9feb8c2)
+        - Với Test.zip là tên file và pass là Test
     - #### Giải mã file:
-    - Ta có thể giải mã từng file vd như:
-    - ![image](https://github.com/Caycon/Forensics/assets/97203151/b4014848-46db-4025-8412-063968831754)
-    - Với decrypt.svg là file ghi decrypt, spiral.svg là file trong zip.
+        - Ta có thể giải mã từng file vd như:
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/b4014848-46db-4025-8412-063968831754)
+        - Với decrypt.svg là file ghi decrypt, spiral.svg là file trong zip.
     - #### Khôi phục mật khẩu:
-    - ![image](https://github.com/Caycon/Forensics/assets/97203151/d6622d51-948d-4e21-baee-58f404da4d6d)
-    - Đây là 1 số ký hiệu tương ứng với các loại kiểu dữ liệu có trong pass bạn cần chọn để crack hoặc có thể để all bytes:
-    - ![image](https://github.com/Caycon/Forensics/assets/97203151/d26e36ec-5936-4072-9271-dba6a26ab034)
-    - Tương tự ta có thể tim thấy pass của bài phần `Pkcrack`:
-    - ![image](https://github.com/Caycon/Forensics/assets/97203151/f177602b-d42c-4056-9da7-559c89de4cf4)
-
-
-   
-
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/d6622d51-948d-4e21-baee-58f404da4d6d)
+        - Đây là 1 số ký hiệu tương ứng với các loại kiểu dữ liệu có trong pass bạn cần chọn để crack hoặc có thể để all bytes:
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/80c1ba35-f2ea-4bc2-aeb4-99f947fbb5e1)
+        - Tương tự ta có thể tim thấy pass của bài phần `Pkcrack`:
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/f177602b-d42c-4056-9da7-559c89de4cf4)
