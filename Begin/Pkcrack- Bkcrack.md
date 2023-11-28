@@ -37,6 +37,29 @@
     - #### Khôi phục mật khẩu:
         - ![image](https://github.com/Caycon/Forensics/assets/97203151/d6622d51-948d-4e21-baee-58f404da4d6d)
         - Đây là 1 số ký hiệu tương ứng với các loại kiểu dữ liệu có trong pass bạn cần chọn để crack hoặc có thể để all bytes:
-        - ![image](https://github.com/Caycon/Forensics/assets/97203151/80c1ba35-f2ea-4bc2-aeb4-99f947fbb5e1)
+        - ![image](https://github.com/Caycon/Forensics/assets/97203151/d26e36ec-5936-4072-9271-dba6a26ab034)
         - Tương tự ta có thể tim thấy pass của bài phần `Pkcrack`:
         - ![image](https://github.com/Caycon/Forensics/assets/97203151/f177602b-d42c-4056-9da7-559c89de4cf4)
+# Demo:
+- Ta sẽ demo crack thông tin [file](https://github.com/Caycon/Forensics/blob/main/Begin/Keep_Out.zip) sau.
+- Sau khi tải về ta cần pass để giải nén và do không biết pass nhưng chúng ta cần phải biết 1 số thông tin của các tập tin có trong đó nên ta sẽ thử khai thác ở điểm này.
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/c8d94fe5-11e8-476e-b213-ddd4b82f067b)
+- Theo theo ta sẽ hash pass bằng john:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/9f77f6c7-0a5e-4f0a-a69a-9e7187332893)
+- Do chờ quá lâu nên ta sẽ thử hash bằng `rockyou.txt`:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/52ff46d8-d001-430e-adda-775268a64f49)
+- Ngay lập tức ta thu được pass:)))))).
+- Giải nén với pass là: `MANCHESTERUNITED`.
+- Ta thu được 3 file trong đó có có 2 file .txt( 1 file có pass, 1 file không có pass), 1 file zip. Điều này giống với kịch bản chúng ta đã demo với `bkcrack` và `pkcrack` ta sẽ thử crack theo hướng này xem sao.
+- Nhưng trước tiên ta cứ thử với `rockyou.txt` đã:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/342cfa74-e2cd-4825-9879-b54e279a9e9e)
+- Nhận thấy không dò được pass và trong file zip kia có 1 file trùng tên với file .txt bên ngoài đó là `bookmarks.txt`. Ta sẽ thử `pkcrack`.
+- Sử dụng `pkcrack`:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/9752bbcf-27b7-442e-b1d3-10e69a873a6f)
+- Lưu ý là phải nén file dưới dạng `zipcrypto` nếu không kết quả sẽ ntn:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/fb046a04-871c-4b56-933a-fb4b763a93ba)
+- Ta thu được 5 file, lần lượt check thì ta thu được flag ngay tại file đầu tiên là file pdf:
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/18184524-1607-406d-ad67-19b917edccc9)
+
+
+
