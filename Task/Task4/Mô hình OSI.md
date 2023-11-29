@@ -1,0 +1,13 @@
+# Mô hình OSI:
+- `OSI` hay `Open Systems Interconnection` là mô hình tham chiếu để mô ta cách mà các hệ thống mạng giao tiếp với nhau. Mô hình `OSI` phân chia quá trình giao tiếp mạng các tầng độc lập nhằm tăng tính tương thích và tách biệt giữa các phân của một hệ thống mạng.
+- `OSI` là mô hình gồm 7 lớp được chia như sau:
+    - Tầng trên:
+        - `Tầng Vật lý (Physical layer)`: Đảm bảo truyền dữ liệu qua các phương tiện truyền thông vật lý, như cáp, sóng radio, hoặc sợi quang.
+        - `Tầng Liên kết dữ liệu (Data Link layer)`: Quản lý việc truyền dữ liệu giữa các thiết bị trên một đường truyền vật lý cụ thể. Đảm bảo tính toàn vẹn dữ liệu và kiểm soát lỗi.
+        - `Tầng Mạng (Network layer)`: Định địa chỉ IP cho các thiết bị, định tuyến dữ liệu và quản lý mạng.
+        - `Tầng Giao vận (Transport layer)`: Đảm bảo việc truyền dữ liệu tin cậy giữa các thiết bị, kiểm soát luồng dữ liệu và phân đoạn.
+    - Tầng dưới:
+        - `Tầng Phiên (Session layer)`: Quản lý việc thiết lập, duy trì và kết thúc phiên truyền thông giữa các ứng dụng.
+        - `Tầng Trình diễn (Presentation layer)`: Đảm bảo định dạng dữ liệu phù hợp cho ứng dụng nhận.
+        - `Tầng Ứng dụng (Application layer)`: Cung cấp các dịch vụ truyền thông cho các ứng dụng, như truyền tệp, truyền thư điện tử, hoặc truyền hình ảnh.
+- ![Alt text](image.png)
