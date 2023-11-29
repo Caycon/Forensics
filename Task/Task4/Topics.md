@@ -1,4 +1,3 @@
-Deadline : 2 tuần(tính từ ngày giao task)
 # TASK 4: Network
 - Tìm hiểu mô hình OSI
 - Cấu trúc thành phần các gói tin trong mô hình OSI, độ dài các trường dữ liệu và tác dụng
@@ -9,4 +8,6 @@ Deadline : 2 tuần(tính từ ngày giao task)
 - Giải và writeup 2 bài netlab2 và netlab5 sau (khuyến khích dùng scapy)
 + Netlab2: https://ctf.viblo.asia/puzzles/netlab2-protected-vault-hf0wmhwguj0
 + Netlab5: Mô tả: Our system is becoming overloaded and paralyzed, unable to respond to any input. It seems that someone is trying to attack us with some kind of DDoS attack
-+ File [nettlab5.pcap]
++ File [nettlab5.pcap](https://github.com/Caycon/Forensics/blob/main/Task/Task4/netlab5.pcap).
+-------
+- **Deadline : 2 tuần**
