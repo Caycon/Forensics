@@ -10,4 +10,5 @@
         - `Tầng Phiên (Session layer)`: Quản lý việc thiết lập, duy trì và kết thúc phiên truyền thông giữa các ứng dụng.
         - `Tầng Trình diễn (Presentation layer)`: Đảm bảo định dạng dữ liệu phù hợp cho ứng dụng nhận.
         - `Tầng Ứng dụng (Application layer)`: Cung cấp các dịch vụ truyền thông cho các ứng dụng, như truyền tệp, truyền thư điện tử, hoặc truyền hình ảnh.
-- ![Alt text](image.png)
+- ![image](https://github.com/Caycon/Forensics/assets/97203151/1d4b38c7-3dfb-4f0b-86e6-29342b41f6cb)
+
