@@ -27,39 +27,42 @@ Mô hình OSI có 7 lớp, được phân chia từ trên xuống dưới như s
 Mỗi lớp của mô hình OSI thực hiện một chức năng cụ thể trong quá trình truyền thông mạng. Dưới đây là một số chức năng chính của các lớp:
 
 * **Lớp ứng dụng:** Cung cấp các dịch vụ cho các ứng dụng người dùng, chẳng hạn như gửi email, duyệt web hoặc chia sẻ tệp. Các dịch vụ này có thể bao gồm:
-    * Truy cập dữ liệu
-    * Cấu hình mạng
-    * Quản lý tài nguyên
+    * Truy cập dữ liệu.
+    * Cấu hình mạng.
+    * Quản lý tài nguyên.
+    * Độ dài trường dữ liệu: Không xác định cụ thể.
 * **Lớp trình bày:** Chuyển đổi dữ liệu giữa các ứng dụng người dùng ở các định dạng khác nhau. Ví dụ: nếu một ứng dụng gửi dữ liệu ở định dạng Unicode, lớp trình bày sẽ chuyển đổi dữ liệu đó sang định dạng ASCII để nó có thể được truyền qua mạng. Các dịch vụ này có thể bao gồm:
-    * Mã hóa dữ liệu
-    * Giải mã dữ liệu
-    * Nén dữ liệu
-    * Giải nén dữ liệu
+    * Mã hóa dữ liệu.
+    * Giải mã dữ liệu.
+    * Nén dữ liệu.
+    * Giải nén dữ liệu.
+    * Độ dài trường dữ liệu: Không xác định cụ thể.
 * **Lớp phiên:** Cung cấp các dịch vụ quản lý phiên, chẳng hạn như bắt đầu, tạm dừng và kết thúc các cuộc hội thoại giữa các ứng dụng. Các dịch vụ này có thể bao gồm:
-    * Tạo phiên
-    * Quản lý phiên
-    * Kết thúc phiên
+    * Tạo phiên.
+    * Quản lý phiên.
+    * Kết thúc phiên.
+    * Độ dài trường dữ liệu: Không xác định cụ thể.
 * **Lớp vận chuyển:** Đảm bảo rằng dữ liệu được truyền từ máy tính này sang máy tính khác một cách đáng tin cậy. Lớp vận chuyển cung cấp các dịch vụ như phân mảnh và ghép lại dữ liệu, kiểm soát luồng dữ liệu và xác nhận dữ liệu. Các dịch vụ này có thể bao gồm:
-    * Cung cấp dịch vụ giao tiếp đáng tin cậy
-    * Phân mảnh và ghép lại dữ liệu
-    * Kiểm soát luồng dữ liệu
-    * Xác nhận dữ liệu
+    * Cung cấp dịch vụ giao tiếp đáng tin cậy.
+    * Phân mảnh và ghép lại dữ liệu.
+    * Kiểm soát luồng dữ liệu.
+    * Xác nhận dữ liệu.
+    * Độ dài trường dữ liệu: Tùy thuộc vào giao thức, ví dụ: trong TCP (Transmission Control Protocol), độ dài tối đa có thể là khoảng 64 KB.
 * **Lớp mạng:** Cung cấp các dịch vụ định tuyến dữ liệu qua mạng. Lớp mạng chịu trách nhiệm chọn đường tốt nhất để truyền dữ liệu từ một nguồn đến đích. Các dịch vụ này có thể bao gồm:
-    * Định tuyến dữ liệu
-    * Chuyển đổi địa chỉ mạng
-    * Chuyển đổi giao thức
+    * Định tuyến dữ liệu.
+    * Chuyển đổi địa chỉ mạng.
+    * Chuyển đổi giao thức.
+    * Độ dài trường dữ liệu: Trường dữ liệu IP có thể có độ dài tối đa 65,535 byte.
 * **Lớp liên kết dữ liệu (Data link layer)**: Đảm bảo rằng dữ liệu được truyền từ máy tính này sang máy tính khác trên cùng một mạng vật lý. Lớp liên kết dữ liệu cung cấp các dịch vụ như kiểm soát lỗi, xác thực và định dạng dữ liệu. Các dịch vụ này có thể bao gồm:
-
-* **Kiểm soát lỗi:** Đảm bảo rằng dữ liệu được truyền một cách chính xác, không bị lỗi.
-* **Xác thực:** Đảm bảo rằng dữ liệu được truyền từ một nguồn đáng tin cậy.
-* **Định dạng dữ liệu:** Chuyển đổi dữ liệu thành các đơn vị dữ liệu nhỏ hơn, dễ dàng truyền qua mạng vật lý.
-
+    * Kiểm soát lỗi: Đảm bảo rằng dữ liệu được truyền một cách chính xác, không bị lỗi.
+    * Xác thực: Đảm bảo rằng dữ liệu được truyền từ một nguồn đáng tin cậy.
+    * Định dạng dữ liệu: Chuyển đổi dữ liệu thành các đơn vị dữ liệu nhỏ hơn, dễ dàng truyền qua mạng vật lý.
+    * Độ dài trường dữ liệu: Trường dữ liệu (Data Frame) thường có độ dài cố định hoặc biến đổi tùy thuộc vào giao thức sử dụng (ví dụ: Ethernet frame có thể có độ dài từ 64 đến 1518 byte).
 * **Lớp vật lý (Physical layer)**: Cung cấp các dịch vụ giao tiếp dữ liệu trên mạng vật lý, chẳng hạn như cáp Ethernet hoặc cáp quang. Lớp vật lý chịu trách nhiệm chuyển đổi dữ liệu thành các tín hiệu điện hoặc quang học có thể được truyền qua mạng vật lý. Các dịch vụ này có thể bao gồm:
-
-* **Giao tiếp dữ liệu:** Chuyển đổi dữ liệu thành các tín hiệu điện hoặc quang học.
-* **Tốc độ truyền dữ liệu:** Xác định tốc độ truyền dữ liệu trên mạng vật lý.
-* **Kênh truyền dữ liệu:** Xác định loại kênh truyền dữ liệu, chẳng hạn như cáp Ethernet hoặc cáp quang.
-
+    * Giao tiếp dữ liệu: Chuyển đổi dữ liệu thành các tín hiệu điện hoặc quang học.
+    * Tốc độ truyền dữ liệu: Xác định tốc độ truyền dữ liệu trên mạng vật lý.
+    * Kênh truyền dữ liệu: Xác định loại kênh truyền dữ liệu, chẳng hạn như cáp Ethernet hoặc cáp quang.
+    * Độ dài trường dữ liệu: Không xác định cụ thể, thường là bit.
 ## Ứng dụng của mô hình OSI
 
 Mô hình OSI được sử dụng trong nhiều lĩnh vực khác nhau, bao gồm:
