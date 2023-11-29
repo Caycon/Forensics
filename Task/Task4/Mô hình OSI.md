@@ -86,3 +86,5 @@ Mô hình OSI cũng có một số nhược điểm sau:
 ## Nhìn chung
 
 * Mô hình OSI là một mô hình tham chiếu quan trọng để hiểu cách thức hoạt động của truyền thông mạng. Mô hình này chia quá trình truyền thông mạng thành 7 lớp, mỗi lớp thực hiện một chức năng cụ thể.
+
+[Tham khảo thêm tại đây](https://mikotech.vn/mo-hinh-osi-la-gi/#:~:text=M%C3%B4%20h%C3%ACnh%20OSI%20%28Open%20Systems%20Interconnection%29%20l%C3%A0%20m%E1%BB%99t,gi%E1%BB%AFa%20c%C3%A1c%20ph%E1%BA%A7n%20c%E1%BB%A7a%20m%E1%BB%99t%20h%E1%BB%87%20th%E1%BB%91ng%20m%E1%BA%A1ng.)
