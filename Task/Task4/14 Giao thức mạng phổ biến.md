@@ -170,3 +170,14 @@
 * OSPF hoạt động như sau:
     1. Các máy chủ định tuyến trao đổi thông tin định tuyến với nhau.
     2. Các máy chủ định tuyến sử dụng thuật toán Shortest Path First (SPF) để tính toán đường đi ngắn nhất đến các đích.
+
+
+sadsad
+sdáad
+dsa
+dsad
+sâdsâ
+dsa
+ds
+ads
+d
