@@ -166,7 +166,6 @@
 **14. OSPF**
 
 * **OSPF (Open Shortest Path First)** là một giao thức định tuyến nâng cao. OSPF được sử dụng để định tuyến các gói tin trên mạng IP.
-
 * OSPF hoạt động như sau:
     1. Các máy chủ định tuyến trao đổi thông tin định tuyến với nhau.
     2. Các máy chủ định tuyến sử dụng thuật toán Shortest Path First (SPF) để tính toán đường đi ngắn nhất đến các đích.
