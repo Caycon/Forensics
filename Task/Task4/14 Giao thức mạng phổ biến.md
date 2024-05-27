@@ -172,6 +172,4 @@
     2. Các máy chủ định tuyến sử dụng thuật toán Shortest Path First (SPF) để tính toán đường đi ngắn nhất đến các đích.
 
 
-sadsad
-
 
