@@ -164,7 +164,6 @@
     2. Các máy chủ định tuyến cập nhật thông tin định tuyến của họ.
 -------
 **14. OSPF**
-
 * **OSPF (Open Shortest Path First)** là một giao thức định tuyến nâng cao. OSPF được sử dụng để định tuyến các gói tin trên mạng IP.
 
 * OSPF hoạt động như sau:
