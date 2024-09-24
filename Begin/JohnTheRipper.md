@@ -6,7 +6,7 @@
 -------
 ## Install:
 - [Install tại đây](https://www.openwall.com/john/).
-- Hoặc install qua `linus` với lệnh sau: `apt install John`.
+- Hoặc install qua `linux` với lệnh sau: `apt install John`.
 -------
 ## Demo:
   - Ta sẽ thử crack 2 file sau: [Sceret.rar](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret.rar) với pass là `DeMoDeMo` và [Sceret](https://github.com/Caycon/Forensics/blob/main/Begin/Sceret) với pass là `PASS`.
